@@ -15,8 +15,8 @@
 | **Hypothesis** | Above 15 km/h the corner brake (`abs(steer) * 0.8`) comes back while the wheel is still turned hard, so the car is pulled down to a crawl in corners and restarts slowly. Releasing the brake up to 40 km/h should reduce this. *(Hypothesis — not proven by the data.)* |
 | **AI recommendation** | Change line 552: `if S['speedX'] < 15: R['brake'] = 0` → `if S['speedX'] < 40: R['brake'] = 0` |
 | **Change made** | Line 552 of snakeoil3_v2.py: threshold changed from 15 to 40. One line only. |
-| **Predicted result** | [FILL IN: my prediction] |
-| **Actual lap time** | 03:52.86 (1 lap, screenshot BETTER_V2_RESULTS.png) |
+| **Predicted result** | [Car will finish less quicker than the last lap |
+| **Actual lap time** | 03:24.86.15 (1 lap, screenshot FINAL_V2_RESULTS.png) |
 | **Damage** | 0 |
 | **Top speed** | 88 km/h |
 | **What surprised us** | [CAR WAS FASTER BUT NOT FAST ENOUGH TO COMPLETE THE LAB IN LESS THAN 2MIN] |
